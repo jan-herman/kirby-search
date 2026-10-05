@@ -1,7 +1,7 @@
 {
     "name": "jan-herman/kirby-search",
-    "description": "Replacement for Kirby's default search component with fuzzy search capabilities.",
-    "version": "1.0.0",
+    "description": "Replacement for Kirby's default search component with transliteration.",
+    "version": "1.1.0",
     "type": "kirby-plugin",
     "license": "MIT",
     "homepage": "https://github.com/jan-herman/kirby-search",
@@ -14,8 +14,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "getkirby/composer-installer": "^1.2",
-        "loilo/fuse": "^7.0"
+        "getkirby/composer-installer": "^1.2"
     },
     "extra": {
         "installer-name": "search"
